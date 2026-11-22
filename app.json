@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "Cat Arcana",
@@ -5,9 +6,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "backgroundColor": "#11101B"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.yourcompany.catarcana"
@@ -15,8 +13,16 @@
     "android": {
       "package": "com.yourcompany.catarcana"
     },
-    "assetBundlePatterns": [
-      "**/*"
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#11101B",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-status-bar"
     ]
   }
 }
