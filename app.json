@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Cat Arcana",
+    "slug": "cat-arcana",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#11101B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.catarcana"
+    },
+    "android": {
+      "package": "com.yourcompany.catarcana"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
